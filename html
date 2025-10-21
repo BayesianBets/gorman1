@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Ryan Gorman — Quantitative Research CV</title>
+<style>
+  :root{
+    --nav-width: 300px;
+    --nav-bg: #111218;
+    --nav-text: #ffffff;
+    --content-color: #222;
+    --header-blue: #0B3D91;
+    --separator: #87CEEB;
+    --gap: 32px;
+  }
+
+  html,body{
+    height:100%;
+    margin:0;
+    font-family: "Calibri","Segoe UI",Tahoma,Geneva,sans-serif;
+    background:#f7f9fb;
+    color:var(--content-color);
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--nav-width);
+    height: 100vh;
+    background: var(--nav-bg);
+    color: var(--nav-text);
+    padding: 32px 20px;
+    box-sizing: border-box;
+    overflow: auto;
+  }
+
+  .portrait {
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    overflow:hidden;
+    margin:0 auto 18px;
+    border:3px solid rgba(255,255,255,0.12);
+  }
+  .portrait img{width:100%;height:100%;object-fit:cover;}
+
+  .nav h1{text-align:center;font-size:20px;margin:0;}
+  .nav p.contact{text-align:center;margin:8px 0 18px;font-size:13px;line-height:1.4;}
+
+  .nav nav a {
+    display:block;
+    color:var(--nav-text);
+    text-decoration:none;
+    padding:10px 8px;
+    border-radius:6px;
+    font-size:14px;
+  }
+  .nav nav a:hover {background:rgba(255,255,255,0.06);}
+
+  .content {
+    margin-left: calc(var(--nav-width) + var(--gap));
+    padding: 48px 42px;
+    max-width: 960px;
+    box-sizing: border-box;
+  }
+
+  section {
+    background:white;
+    padding:20px 26px;
+    margin-bottom:28px;
+    border-radius:10px;
+    box-shadow:0 6px 18px rgba(12,16,24,0.04);
+  }
+
+  .section-header h2 {
+    margin:0;
+    color:var(--header-blue);
+    font-size:20px;
+  }
+
+  .sep {
+    height:4px;
+    background:var(--separator);
+    border-radius:4px;
+    margin:12px 0 10px;
+  }
+
+  .muted {color:#556;font-size:14px;}
+  .job {margin-bottom:14px;}
+  .job h3 {margin:0;font-size:16px;color:#102030;}
+  .job .meta {font-size:13px;color:#556;margin-bottom:8px;}
+  .job ul {margin-left:18px;}
+  .badge{display:inline-block;padding:4px 8px;border-radius:6px;font-size:12px;background:#eef6ff;color:var(--header-blue);margin-right:6px;}
+  @media (max-width:900px){.nav{position:relative;width:100%;height:auto}.content{margin-left:0;padding:20px}}
+</style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <aside class="nav">
+    <div class="portrait">
+      <img src="https://via.placeholder.com/240" alt="Ryan Gorman portrait">
+    </div>
+    <h1>Ryan Gorman</h1>
+    <p class="contact">
+      West Chester, PA<br>
+      (609) 744-3745<br>
+      <a href="mailto:Ryanfgorman@gmail.com" style="color:white;">Ryanfgorman@gmail.com</a><br>
+      <a href="https://www.linkedin.com/in/rfgorman/" style="color:white;">LinkedIn</a> •
+      <a href="https://github.com/BayesianBets" style="color:white;">GitHub</a>
+    </p>
+
+    <nav>
+      <a href="#summary">Summary</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#skills">Skills</a>
+      <a href="#awards">Awards & Interests</a>
+    </nav>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="content">
+
+    <!-- SUMMARY -->
+    <section id="summary">
+      <div class="section-header"><h2>Professional Summary</h2></div>
+      <div class="sep"></div>
+      <p>
+        Data-driven quantitative researcher and applied statistics student specializing in systematic trading strategies,
+        volatility modeling, and financial data automation. Experienced in Python, machine learning, and applied econometrics.
+        Known for developing efficient trading algorithms and quantitative tools that deliver measurable alpha.
+        Incoming <strong>Quantitative Analytics Intern at Morgan Stanley</strong>, passionate about quantitative finance and innovation.
+      </p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="section-header"><h2>Professional Experience</h2></div>
+      <div class="sep"></div>
+
+      <article class="job">
+        <h3>Incoming Quantitative Analytics Intern — Morgan Stanley</h3>
+        <div class="meta">New York, NY • Summer 2026</div>
+      </article>
+
+      <article class="job">
+        <h3>Quantitative Research Intern — City of London Investment Management</h3>
+        <div class="meta">West Chester, PA • Jan 2025 – Aug 2025</div>
+        <ul>
+          <li>Developed mean-reversion momentum ETF strategy generating 4.7% annual alpha.</li>
+          <li>Automated buyback data collection with Selenium and Google BERT, saving 2+ hours daily.</li>
+          <li>Built L/S ML trading model achieving 5.3% out-of-sample alpha across regimes.</li>
+          <li>Engineered XGBoost equity strategy producing 7% annualized alpha over 8 years.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Portfolio Management Intern — Ausperity Private Wealth</h3>
+        <div class="meta">Moorestown, NJ • May 2024 – Aug 2024</div>
+        <ul>
+          <li>Implemented Python Monte Carlo simulations with 10,000 portfolio return paths.</li>
+          <li>Automated client segmentation in Excel, increasing efficiency by 75%.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Data Analytics Intern — All Star Sports Academy</h3>
+        <div class="meta">West Chester, PA • Feb 2024 – May 2024</div>
+        <ul>
+          <li>Conducted statistical analysis across six locations totaling $1M+ monthly revenue.</li>
+          <li>Used QuickBooks for payroll, accounting, and tax verification.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="section-header"><h2>Education</h2></div>
+      <div class="sep"></div>
+
+      <strong>West Chester University of Pennsylvania</strong><br>
+      Accelerated B.S. Mathematics / M.S. Applied Statistics<br>
+      <span class="muted">GPA: 3.7 | Expected May 2026 (B.S.), May 2027 (M.S.)</span>
+      <p style="margin-top:8px;">
+        Coursework: Python for Data Science, Linear Algebra, Machine Learning, Statistical Computing, Financial Analytics<br>
+        Activities: Varsity Tennis, Pi Kappa Alpha, Math Tutor, Investment Group, Entrepreneurship Fund
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-header"><h2>Quantitative Projects</h2></div>
+      <div class="sep"></div>
+
+      <ul>
+        <li><strong>volstats – Historical Volatility Estimation Library</strong><br>
+          Published Python package on PyPI (450+ downloads, 100K+ views). Includes Garman-Klass, Yang-Zhang, EWMA, and hybrid estimators.
+        </li>
+        <li><strong>Predicting NVDA Option Implied Volatility with ML</strong><br>
+          Achieved 0.07 RMSE on out-of-sample data; research gained 18K+ views on LinkedIn.
+        </li>
+      </ul>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section id="leadership">
+      <div class="section-header"><h2>Leadership Experience</h2></div>
+      <div class="sep"></div>
+      <ul>
+        <li><strong>13th Annual WCU Business Pitch Runner-Up</strong> — Won $800 for AI-powered workers’ comp automation tool (2024)</li>
+        <li><strong>External VP & Director of Recruitment, Pi Kappa Alpha</strong> — Increased recruitment 225% vs. 3-year avg.</li>
+        <li><strong>Mathematics Tutor</strong> — Tutored Calculus, Linear Algebra, and Statistics.</li>
+        <li><strong>Quant Sector Head, WCU Investment Group</strong> — Led quant analysis using Python & ML.</li>
+      </ul>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="section-header"><h2>Technical Skills</h2></div>
+      <div class="sep"></div>
+      <p><span class="badge">Python</span><span class="badge">SQL</span><span class="badge">R</span><span class="badge">SAS</span><span class="badge">HTML</span><span class="badge">CSS</span></p>
+      <p><strong>Libraries:</strong> Pandas, NumPy, XGBoost, TensorFlow, Scikit-Learn, Selenium, Flask, Arch, Seaborn, Plotly</p>
+      <p><strong>Software:</strong> Excel, PowerPoint, Bloomberg Terminal, QuickBooks, Salesforce, Orion</p>
+      <p><strong>Modeling:</strong> XGBoost, Random Forest, Neural Networks, PCA, SVM, Logistic Regression</p>
+      <p><strong>Certifications:</strong> CFA Level I Candidate (Feb 2026), Object-Oriented Python (Udemy)</p>
+    </section>
+
+    <!-- AWARDS -->
+    <section id="awards">
+      <div class="section-header"><h2>Awards & Interests</h2></div>
+      <div class="sep"></div>
+      <ul>
+        <li><strong>WCU Entrepreneurship Fund</strong> — Runner-Up, 2024</li>
+      </ul>
+      <p><strong>Interests:</strong> Blackjack, Tennis, Bodybuilding, Poker, Cologne, John Summit, Huey Lewis & The News</p>
+    </section>
+
+  </main>
+
+</body>
+</html>
